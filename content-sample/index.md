@@ -293,7 +293,7 @@ your config, like a separate config file for your theme (`config/my_theme.yml`).
 Please note that Pico loads config files in a special way you should be aware
 of. First of all it loads the main config file `config/config.yml`, and then
 any other `*.yml` file in Pico's `config` dir in alphabetical order. The file
-order is crucial: Configiguration values which have been set already, cannot be
+order is crucial: Configuration values which have been set already, cannot be
 overwritten by a succeeding file. For example, if you set `site_title: Pico` in
 `config/a.yml` and `site_title: My awesome site!` in `config/b.yml`, your site
 title will be "Pico".
